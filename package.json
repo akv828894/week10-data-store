@@ -1,0 +1,30 @@
+{
+  "name": "week10-data-store",
+  "version": "1.0.0",
+  "description": "Week 10 fullstack internship project: a REST API blog server with Express, Mongoose, and MongoDB Atlas support.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "dev:watch": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node tests/api.test.js",
+    "check:mongo": "node scripts/checkMongo.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "rest-api",
+    "backend",
+    "mongoose",
+    "mongodb",
+    "week10"
+  ],
+  "author": "Intern Project",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1"
+  }
+}
